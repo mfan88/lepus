@@ -1,32 +1,12 @@
-# React + TypeScript + Vite
+# Lepus: A automated invoice system that does organization so you don't have to
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+The system is currently built on the following stack:
+Frontend: Electron + Vite (Tailwind)
+Data Layer: OracleDB HTTPS
+Backend: Oracle OCI
 
-Currently, two official plugins are available:
+# In Progress
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+1. Creation of Invoice and Client Dashboard
+2. Creation of Settings and Preferences
+3. Aligning Oracle Database with user workflows
