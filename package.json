@@ -1,7 +1,10 @@
 {
   "name": "lepus",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "description": "Automated invoice service powered by AI",
+  "author": "Marcus Fan marcusfan06@gmail.com",
+  "main": "./dist/main.js",
   "scripts": {
     "dev:vite": "vite",
     "dev:electron": "tsc -p electron/tsconfig.json && electron dist/main.js",
