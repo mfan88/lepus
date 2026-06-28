@@ -1,8 +1,8 @@
 # Lepus: A automated invoice system that does organization so you don't have to
 
-The system is currently built on the following stack:
-Frontend: Electron + Vite (Tailwind)
-Data Layer: OracleDB HTTPS
+The system is currently built on the following stack:\
+Frontend: Electron + Vite (Tailwind)\
+Data Layer: OracleDB HTTPS\
 Backend: Oracle OCI
 
 # In Progress
